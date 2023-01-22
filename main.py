@@ -2,6 +2,8 @@ import nltk
 import pymorphy2
 nltk.download('punkt')
 
+# TODO (sirotkin.nikola@mail.ru): перед запуском необходимо установть библиотеки: nltk и pymorphy2
+
 prob_thresh = 0.4
 
 morph = pymorphy2.MorphAnalyzer()
